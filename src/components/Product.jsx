@@ -16,7 +16,12 @@ export function Product() {
 
     return (
         <div className="product-container">
-            {products.map((product) => (<ShowProduct key={product.id} data={product}></ShowProduct>))}
+            <div>
+                <img src={products.img[products.main_img]} alt="#" />
+            </div>
+            <div className="size">{products.size}</div>
+            <div className="price">{products.price}</div>
+
         </div>
     )
 }

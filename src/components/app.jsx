@@ -26,3 +26,5 @@ export default App;
 
 // vinted: https://in3.dev/vinted/api/users/
 // https://in3.dev/vinted/api/products/
+
+// https://in3.dev/vinted/api/news/
